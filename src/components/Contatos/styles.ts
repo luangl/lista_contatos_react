@@ -60,6 +60,10 @@ export const Dados = styled.input`
     background-color: #48dbfb;
     border-radius: 4px 4px 0 0;
   }
+
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
 `
 
 export const BarraAcoes = styled.div`
